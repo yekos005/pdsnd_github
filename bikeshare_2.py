@@ -192,9 +192,9 @@ def display_raw_data(df):
         if raw == 'no':
             break
         elif raw == 'yes':
-            print(df[i:i+5])
-            raw = input("Would you like to see five(5) more rows of raw data? Type Yes or No: ").lower()
-            i = i+5
+            print(df[i:i+7])
+            raw = input("Would you like to see seven(7) more rows of raw data? Type Yes or No: ").lower()
+            i = i+7
         else:
             raw = input("\n Your input is invalid. please enter only yes or no \n").lower()
 
